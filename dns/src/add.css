@@ -1,0 +1,142 @@
+.form-containe {
+    min-width: 450px;
+    max-width: 500px;
+    margin: 70px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+ 
+  form p {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+  input.form-inpu {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  button.form-butto {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button.form-butto:hover {
+    background-color: #0056b3;
+  }
+  .chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .file {
+    width: 300px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.file-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.read-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-button:hover {
+    background-color: #0056b3;
+}
+
+.file-display {
+    margin-top: 15px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 300px;
+    overflow: auto;
+    font-family: monospace;
+    font-size: 14px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .file {
+        padding: 10px;
+    }
+}
+.file-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.file-name {
+    color: #555;
+    font-size: 14px;
+}
+.upload-button{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+.upload-button:hover {
+    background-color: #0056b3;
+}
